@@ -1,5 +1,5 @@
 ﻿Soft conflicts of JadwalDepdikmat2023b.fet
-Generated with FET 6.9.2 on 7/31/23 1:40 PM
+Generated with FET 6.9.2 on 7/31/23 2:12 PM
 
 Number of broken soft constraints: 0
 Total soft conflicts: 0
