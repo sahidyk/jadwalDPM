@@ -3977,19 +3977,6 @@
 	<Comments></Comments>
 </Activity>
 <Activity>
-	<Teacher>Dhoriva Urwatul Wustqo, Prof., Dr.</Teacher>
-	<Teacher>Bayutama Isnaini, M.Si.</Teacher>
-	<Subject>STA6321 Model Linier</Subject>
-	<Activity_Tag>3SKS</Activity_Tag>
-	<Students>STATS1_2021G</Students>
-	<Duration>1</Duration>
-	<Total_Duration>1</Total_Duration>
-	<Id>216</Id>
-	<Activity_Group_Id>0</Activity_Group_Id>
-	<Active>true</Active>
-	<Comments></Comments>
-</Activity>
-<Activity>
 	<Teacher>Bayutama Isnaini, M.Si.</Teacher>
 	<Subject>STA6327 Statistika Bayesian</Subject>
 	<Activity_Tag>3SKS</Activity_Tag>
@@ -3998,18 +3985,6 @@
 	<Total_Duration>1</Total_Duration>
 	<Id>202</Id>
 	<Activity_Group_Id>0</Activity_Group_Id>
-	<Active>true</Active>
-	<Comments></Comments>
-</Activity>
-<Activity>
-	<Teacher>Kismiantini, Ph.D.</Teacher>
-	<Subject>STA6330 Analisis Mediasi Statistik </Subject>
-	<Activity_Tag>2SKS</Activity_Tag>
-	<Students>STATS1_2021G</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
-	<Id>203</Id>
-	<Activity_Group_Id>203</Activity_Group_Id>
 	<Active>true</Active>
 	<Comments></Comments>
 </Activity>
@@ -4409,18 +4384,6 @@
 	<Comments></Comments>
 </Activity>
 <Activity>
-	<Teacher>Kismiantini, Ph.D.</Teacher>
-	<Subject>STA6330 Analisis Mediasi Statistik </Subject>
-	<Activity_Tag>1SKS</Activity_Tag>
-	<Students>STATS1_2021G</Students>
-	<Duration>1</Duration>
-	<Total_Duration>2</Total_Duration>
-	<Id>239</Id>
-	<Activity_Group_Id>203</Activity_Group_Id>
-	<Active>true</Active>
-	<Comments></Comments>
-</Activity>
-<Activity>
 	<Teacher>Ezra Putranda S., M.Sc.</Teacher>
 	<Teacher>Indira Ihnu Brilliant, M.Stat.</Teacher>
 	<Subject>STA6334 Biostatistika Terapan</Subject>
@@ -4456,6 +4419,18 @@
 	<Total_Duration>2</Total_Duration>
 	<Id>242</Id>
 	<Activity_Group_Id>209</Activity_Group_Id>
+	<Active>true</Active>
+	<Comments></Comments>
+</Activity>
+<Activity>
+	<Teacher>Kismiantini, Ph.D.</Teacher>
+	<Subject>STA6330 Analisis Mediasi Statistik </Subject>
+	<Activity_Tag>3SKS</Activity_Tag>
+	<Students>STATS1_2021G</Students>
+	<Duration>1</Duration>
+	<Total_Duration>1</Total_Duration>
+	<Id>243</Id>
+	<Activity_Group_Id>0</Activity_Group_Id>
 	<Active>true</Active>
 	<Comments></Comments>
 </Activity>
@@ -5375,7 +5350,7 @@
 <ConstraintTeacherNotAvailableTimes>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Teacher>Dhoriva Urwatul Wustqo, Prof., Dr.</Teacher>
-	<Number_of_Not_Available_Times>7</Number_of_Not_Available_Times>
+	<Number_of_Not_Available_Times>8</Number_of_Not_Available_Times>
 	<Not_Available_Time>
 		<Day>Senin</Day>
 		<Hour>07:30 - 09:10</Hour>
@@ -5395,6 +5370,10 @@
 	<Not_Available_Time>
 		<Day>Kamis</Day>
 		<Hour>07:30 - 09:10</Hour>
+	</Not_Available_Time>
+	<Not_Available_Time>
+		<Day>Kamis</Day>
+		<Hour>09:20 - 11:50</Hour>
 	</Not_Available_Time>
 	<Not_Available_Time>
 		<Day>Jum&apos;at</Day>
@@ -6547,16 +6526,6 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Consecutive_If_Same_Day>true</Consecutive_If_Same_Day>
 	<Number_of_Activities>2</Number_of_Activities>
-	<Activity_Id>203</Activity_Id>
-	<Activity_Id>239</Activity_Id>
-	<MinDays>1</MinDays>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintMinDaysBetweenActivities>
-<ConstraintMinDaysBetweenActivities>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Consecutive_If_Same_Day>true</Consecutive_If_Same_Day>
-	<Number_of_Activities>2</Number_of_Activities>
 	<Activity_Id>204</Activity_Id>
 	<Activity_Id>240</Activity_Id>
 	<MinDays>1</MinDays>
@@ -7700,15 +7669,6 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>2</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>3</Activity_Id>
 	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -7717,9 +7677,18 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>3</Activity_Id>
+	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>4</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -7727,8 +7696,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>5</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -7737,7 +7706,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>6</Activity_Id>
 	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -7745,15 +7714,6 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>7</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>8</Activity_Id>
 	<Preferred_Day>Jum&apos;at</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -7762,8 +7722,8 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>9</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
+	<Activity_Id>8</Activity_Id>
+	<Preferred_Day>Selasa</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -7771,8 +7731,17 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>10</Activity_Id>
+	<Activity_Id>9</Activity_Id>
 	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>10</Activity_Id>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -7827,7 +7796,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>16</Activity_Id>
 	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -7835,7 +7804,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>17</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -7844,7 +7813,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>18</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -7853,7 +7822,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>19</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -7871,8 +7840,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>21</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -7880,7 +7849,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>22</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -7908,7 +7877,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>25</Activity_Id>
 	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -7916,7 +7885,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>26</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -7925,7 +7894,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>27</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -7934,8 +7903,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>28</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -7943,7 +7912,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>29</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -7952,8 +7921,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>30</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -7979,7 +7948,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>33</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -7988,7 +7957,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>34</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -7997,7 +7966,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>35</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8006,8 +7975,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>36</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8024,8 +7993,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>38</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8078,7 +8047,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>44</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8096,8 +8065,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>46</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8123,8 +8092,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>49</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8150,8 +8119,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>52</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8159,7 +8128,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>53</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8186,8 +8155,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>56</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8204,8 +8173,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>58</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8213,6 +8182,15 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>59</Activity_Id>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>60</Activity_Id>
 	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -8221,17 +8199,8 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>60</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>61</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8241,7 +8210,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>62</Activity_Id>
 	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8249,7 +8218,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>63</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8258,7 +8227,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>64</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8267,42 +8236,6 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>65</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>66</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>67</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>68</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>69</Activity_Id>
 	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -8311,16 +8244,16 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>70</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Activity_Id>66</Activity_Id>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>71</Activity_Id>
+	<Activity_Id>67</Activity_Id>
 	<Preferred_Day>Selasa</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -8329,7 +8262,7 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>72</Activity_Id>
+	<Activity_Id>68</Activity_Id>
 	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -8338,9 +8271,45 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>73</Activity_Id>
+	<Activity_Id>69</Activity_Id>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>70</Activity_Id>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>71</Activity_Id>
 	<Preferred_Day>Jum&apos;at</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>72</Activity_Id>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>73</Activity_Id>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8357,33 +8326,6 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>75</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>76</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>77</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>78</Activity_Id>
 	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -8392,9 +8334,36 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>76</Activity_Id>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>77</Activity_Id>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>78</Activity_Id>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>79</Activity_Id>
 	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8402,16 +8371,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>80</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>81</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8419,9 +8379,18 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>81</Activity_Id>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>82</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8429,7 +8398,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>83</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8438,8 +8407,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>84</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8447,8 +8416,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>85</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8474,8 +8443,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>88</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8483,7 +8452,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>89</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
 	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8492,6 +8461,15 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>90</Activity_Id>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>91</Activity_Id>
 	<Preferred_Day>Jum&apos;at</Preferred_Day>
 	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -8500,18 +8478,9 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>91</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>92</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8519,7 +8488,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>93</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8528,8 +8497,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>94</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8537,8 +8506,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>95</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8556,7 +8525,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>97</Activity_Id>
 	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8564,7 +8533,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>98</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Day>Selasa</Preferred_Day>
 	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8573,87 +8542,6 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>99</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>100</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>101</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>102</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>103</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>104</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>105</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>106</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>107</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>108</Activity_Id>
 	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -8662,9 +8550,90 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>109</Activity_Id>
+	<Activity_Id>100</Activity_Id>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>101</Activity_Id>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>102</Activity_Id>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>103</Activity_Id>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>104</Activity_Id>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>105</Activity_Id>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>106</Activity_Id>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>107</Activity_Id>
 	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>108</Activity_Id>
+	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>109</Activity_Id>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8681,8 +8650,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>111</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8699,8 +8668,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>113</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8708,8 +8677,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>114</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8717,7 +8686,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>115</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Day>Selasa</Preferred_Day>
 	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8726,7 +8695,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>116</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8736,7 +8705,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>117</Activity_Id>
 	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8753,7 +8722,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>119</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8762,8 +8731,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>120</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8780,8 +8749,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>122</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8789,8 +8758,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>123</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8807,42 +8776,6 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>125</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>126</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>127</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>128</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>129</Activity_Id>
 	<Preferred_Day>Jum&apos;at</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -8851,8 +8784,44 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>126</Activity_Id>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>127</Activity_Id>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>128</Activity_Id>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>129</Activity_Id>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>130</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8861,8 +8830,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>131</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8870,8 +8839,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>132</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8880,7 +8849,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>133</Activity_Id>
 	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8888,8 +8857,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>134</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8907,15 +8876,6 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>136</Activity_Id>
 	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>137</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8923,7 +8883,7 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>138</Activity_Id>
+	<Activity_Id>137</Activity_Id>
 	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -8932,34 +8892,7 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>139</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>140</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>141</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>142</Activity_Id>
+	<Activity_Id>138</Activity_Id>
 	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -8968,9 +8901,45 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>143</Activity_Id>
+	<Activity_Id>139</Activity_Id>
+	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>140</Activity_Id>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>141</Activity_Id>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>142</Activity_Id>
 	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>143</Activity_Id>
+	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -8978,7 +8947,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>144</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -8996,8 +8965,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>146</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9024,15 +8993,6 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>149</Activity_Id>
 	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>150</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9040,8 +9000,17 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>150</Activity_Id>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>151</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Day>Selasa</Preferred_Day>
 	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9050,7 +9019,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>152</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9059,8 +9028,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>153</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9068,8 +9037,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>154</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9078,7 +9047,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>155</Activity_Id>
 	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9086,8 +9055,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>156</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9095,7 +9064,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>157</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
 	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9104,7 +9073,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>158</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9113,8 +9082,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>159</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9122,8 +9091,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>160</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9131,7 +9100,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>161</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9141,7 +9110,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>162</Activity_Id>
 	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9149,7 +9118,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>163</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Day>Rabu</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9158,8 +9127,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>164</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9176,7 +9145,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>166</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9185,8 +9154,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>167</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9194,8 +9163,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>168</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9221,7 +9190,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>171</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9248,8 +9217,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>174</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9258,7 +9227,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>175</Activity_Id>
 	<Preferred_Day>Sabtu</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9266,7 +9235,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>176</Activity_Id>
-	<Preferred_Day>Sabtu</Preferred_Day>
+	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9276,7 +9245,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>177</Activity_Id>
 	<Preferred_Day>Sabtu</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9284,8 +9253,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>178</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9303,7 +9272,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>180</Activity_Id>
 	<Preferred_Day>Sabtu</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9311,8 +9280,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>181</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Sabtu</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9329,8 +9298,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>183</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9338,8 +9307,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>184</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9366,7 +9335,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>187</Activity_Id>
 	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9384,7 +9353,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>189</Activity_Id>
 	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9392,7 +9361,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>190</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9402,7 +9371,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>191</Activity_Id>
 	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9419,7 +9388,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>193</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9428,8 +9397,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>194</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9447,15 +9416,6 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>196</Activity_Id>
 	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>197</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9463,16 +9423,7 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>198</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>199</Activity_Id>
+	<Activity_Id>197</Activity_Id>
 	<Preferred_Day>Jum&apos;at</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -9481,8 +9432,26 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>200</Activity_Id>
+	<Activity_Id>198</Activity_Id>
 	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>199</Activity_Id>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredStartingTime>
+<ConstraintActivityPreferredStartingTime>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>200</Activity_Id>
+	<Preferred_Day>Selasa</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9499,15 +9468,6 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>216</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>202</Activity_Id>
 	<Preferred_Day>Senin</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
@@ -9517,18 +9477,9 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>203</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredStartingTime>
-<ConstraintActivityPreferredStartingTime>
-	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>204</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9536,8 +9487,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>205</Activity_Id>
-	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9545,7 +9496,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>206</Activity_Id>
-	<Preferred_Day>Kamis</Preferred_Day>
+	<Preferred_Day>Selasa</Preferred_Day>
 	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9554,8 +9505,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>207</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9563,7 +9514,7 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>208</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9572,8 +9523,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>209</Activity_Id>
-	<Preferred_Day>Rabu</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Preferred_Day>Selasa</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9590,8 +9541,8 @@
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>211</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9600,7 +9551,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>212</Activity_Id>
 	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9699,7 +9650,7 @@
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>227</Activity_Id>
 	<Preferred_Day>Jum&apos;at</Preferred_Day>
-	<Preferred_Hour>09:20 - 11:50</Preferred_Hour>
+	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -9805,8 +9756,8 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>239</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
+	<Activity_Id>240</Activity_Id>
+	<Preferred_Day>Jum&apos;at</Preferred_Day>
 	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -9814,16 +9765,16 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>240</Activity_Id>
-	<Preferred_Day>Senin</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Activity_Id>241</Activity_Id>
+	<Preferred_Day>Rabu</Preferred_Day>
+	<Preferred_Hour>15:30 -17:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>241</Activity_Id>
+	<Activity_Id>242</Activity_Id>
 	<Preferred_Day>Kamis</Preferred_Day>
 	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
@@ -9832,9 +9783,9 @@
 </ConstraintActivityPreferredStartingTime>
 <ConstraintActivityPreferredStartingTime>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>242</Activity_Id>
-	<Preferred_Day>Selasa</Preferred_Day>
-	<Preferred_Hour>07:30 - 09:10</Preferred_Hour>
+	<Activity_Id>243</Activity_Id>
+	<Preferred_Day>Senin</Preferred_Day>
+	<Preferred_Hour>12:40 - 15:10</Preferred_Hour>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -11038,14 +10989,6 @@
 	<Number_of_Activities>2</Number_of_Activities>
 	<Activity_Id>173</Activity_Id>
 	<Activity_Id>174</Activity_Id>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivitiesSameRoomIfConsecutive>
-<ConstraintActivitiesSameRoomIfConsecutive>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Number_of_Activities>2</Number_of_Activities>
-	<Activity_Id>203</Activity_Id>
-	<Activity_Id>239</Activity_Id>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintActivitiesSameRoomIfConsecutive>
@@ -12491,6 +12434,36 @@
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintActivityPreferredRooms>
+<ConstraintSubjectPreferredRooms>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Subject>PMA8227 Pemodelan Multilevel</Subject>
+	<Number_of_Preferred_Rooms>14</Number_of_Preferred_Rooms>
+	<Preferred_Room>D.02.1.01.06</Preferred_Room>
+	<Preferred_Room>D.02.2.01.06</Preferred_Room>
+	<Preferred_Room>D.02.3.01.05</Preferred_Room>
+	<Preferred_Room>D.02.3.01.06</Preferred_Room>
+	<Preferred_Room>D.03.1.01.06</Preferred_Room>
+	<Preferred_Room>D.03.2.01.05</Preferred_Room>
+	<Preferred_Room>D.03.3.01.05</Preferred_Room>
+	<Preferred_Room>D.07.2.01.09</Preferred_Room>
+	<Preferred_Room>D.07.3.01.10</Preferred_Room>
+	<Preferred_Room>Lab Pend Mat (Lt 3)</Preferred_Room>
+	<Preferred_Room>R. M2 (Lt 1)</Preferred_Room>
+	<Preferred_Room>R. Audiovisual (Lt 2)</Preferred_Room>
+	<Preferred_Room>R. PPG 1 (Lt 2)</Preferred_Room>
+	<Preferred_Room>R. PPG 2 (Lt 2)</Preferred_Room>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintSubjectPreferredRooms>
+<ConstraintSubjectPreferredRooms>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Subject>STA6322 Statistika Multivariat</Subject>
+	<Number_of_Preferred_Rooms>2</Number_of_Preferred_Rooms>
+	<Preferred_Room>Lab Kom 2 (Lt2)</Preferred_Room>
+	<Preferred_Room>Lab Kom 3 (IDB)</Preferred_Room>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintSubjectPreferredRooms>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>1</Activity_Id>
@@ -12502,7 +12475,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>2</Activity_Id>
-	<Room>D.02.2.01.06</Room>
+	<Room>D.02.3.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12510,7 +12483,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>3</Activity_Id>
-	<Room>D.07.3.01.10</Room>
+	<Room>D.02.2.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12518,7 +12491,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>4</Activity_Id>
-	<Room>D.02.3.01.05</Room>
+	<Room>D.03.3.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12534,7 +12507,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>6</Activity_Id>
-	<Room>D.07.3.01.10</Room>
+	<Room>D.07.2.01.09</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12542,14 +12515,6 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>7</Activity_Id>
-	<Room>D.02.3.01.06</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>8</Activity_Id>
 	<Room>D.07.3.01.10</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -12557,8 +12522,16 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>8</Activity_Id>
+	<Room>D.03.3.01.05</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>9</Activity_Id>
-	<Room>D.02.3.01.06</Room>
+	<Room>D.02.2.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12566,7 +12539,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>10</Activity_Id>
-	<Room>D.03.1.01.06</Room>
+	<Room>D.03.3.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12574,7 +12547,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>15</Activity_Id>
-	<Room>D.03.2.01.05</Room>
+	<Room>D.07.3.01.10</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12582,7 +12555,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>16</Activity_Id>
-	<Room>D.02.1.01.06</Room>
+	<Room>D.03.1.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12598,14 +12571,6 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>18</Activity_Id>
-	<Room>D.02.1.01.06</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>19</Activity_Id>
 	<Room>D.03.1.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -12613,7 +12578,7 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>20</Activity_Id>
+	<Activity_Id>19</Activity_Id>
 	<Room>D.02.2.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -12621,8 +12586,16 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>20</Activity_Id>
+	<Room>D.03.2.01.05</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>21</Activity_Id>
-	<Room>D.07.2.01.09</Room>
+	<Room>D.03.2.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12630,7 +12603,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>22</Activity_Id>
-	<Room>D.03.3.01.05</Room>
+	<Room>D.03.2.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12670,62 +12643,6 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>27</Activity_Id>
-	<Room>D.02.2.01.06</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>28</Activity_Id>
-	<Room>D.02.3.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>29</Activity_Id>
-	<Room>D.02.3.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>30</Activity_Id>
-	<Room>Lab Kom 2 (Lt2)</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>31</Activity_Id>
-	<Room>D.02.2.01.06</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>32</Activity_Id>
-	<Room>D.07.3.01.10</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>33</Activity_Id>
-	<Room>D.02.3.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>34</Activity_Id>
 	<Room>D.07.2.01.09</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -12733,7 +12650,7 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>35</Activity_Id>
+	<Activity_Id>28</Activity_Id>
 	<Room>D.03.3.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -12741,7 +12658,31 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>36</Activity_Id>
+	<Activity_Id>29</Activity_Id>
+	<Room>D.03.3.01.05</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>30</Activity_Id>
+	<Room>D.03.2.01.05</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>31</Activity_Id>
+	<Room>Lab Kom 3 (IDB)</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>32</Activity_Id>
 	<Room>D.02.2.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -12749,8 +12690,40 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>33</Activity_Id>
+	<Room>D.07.3.01.10</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>34</Activity_Id>
+	<Room>D.03.3.01.05</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>35</Activity_Id>
+	<Room>D.07.2.01.09</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>36</Activity_Id>
+	<Room>D.02.1.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>37</Activity_Id>
-	<Room>Lab Kom 2 (Lt2)</Room>
+	<Room>Lab Kom 1 (Lt 3)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12766,30 +12739,6 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>39</Activity_Id>
-	<Room>D.02.3.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>40</Activity_Id>
-	<Room>D.03.3.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>41</Activity_Id>
-	<Room>D.07.2.01.09</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>42</Activity_Id>
 	<Room>R. M2 (Lt 1)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -12797,8 +12746,32 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>40</Activity_Id>
+	<Room>D.02.1.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>41</Activity_Id>
+	<Room>D.02.1.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>42</Activity_Id>
+	<Room>D.07.3.01.10</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>43</Activity_Id>
-	<Room>Lab Kom 1 (Lt 3)</Room>
+	<Room>Lab Kom 2 (Lt2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12814,7 +12787,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>45</Activity_Id>
-	<Room>Lab Kom 1 (Lt 3)</Room>
+	<Room>Lab Kom 2 (Lt2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12822,7 +12795,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>46</Activity_Id>
-	<Room>Lab Kom 2 (Lt2)</Room>
+	<Room>Lab Kom 1 (Lt 3)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12830,7 +12803,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>47</Activity_Id>
-	<Room>Lab Kom 2 (Lt2)</Room>
+	<Room>Lab Kom 1 (Lt 3)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12838,7 +12811,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>48</Activity_Id>
-	<Room>D.02.2.01.06</Room>
+	<Room>D.03.3.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12846,7 +12819,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>49</Activity_Id>
-	<Room>R. M2 (Lt 1)</Room>
+	<Room>D.02.3.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12854,7 +12827,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>50</Activity_Id>
-	<Room>Lab Kom 1 (Lt 3)</Room>
+	<Room>Lab Kom 2 (Lt2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12878,7 +12851,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>53</Activity_Id>
-	<Room>D.03.1.01.06</Room>
+	<Room>D.07.2.01.09</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12886,7 +12859,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>56</Activity_Id>
-	<Room>D.07.3.01.10</Room>
+	<Room>D.02.3.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12894,14 +12867,6 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>57</Activity_Id>
-	<Room>D.03.3.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>58</Activity_Id>
 	<Room>D.03.2.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -12909,8 +12874,16 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>58</Activity_Id>
+	<Room>D.02.3.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>59</Activity_Id>
-	<Room>D.03.1.01.06</Room>
+	<Room>R. PPG 1 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12918,7 +12891,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>60</Activity_Id>
-	<Room>R. PPG 1 (Lt 2)</Room>
+	<Room>R. PPG 2 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12926,7 +12899,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>61</Activity_Id>
-	<Room>R. PPG 1 (Lt 2)</Room>
+	<Room>D.07.3.01.10</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12950,7 +12923,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>64</Activity_Id>
-	<Room>D.03.2.01.05</Room>
+	<Room>D.07.2.01.09</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12958,7 +12931,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>65</Activity_Id>
-	<Room>D.02.3.01.06</Room>
+	<Room>D.03.2.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12982,7 +12955,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>68</Activity_Id>
-	<Room>D.02.2.01.06</Room>
+	<Room>D.03.2.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -12990,7 +12963,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>69</Activity_Id>
-	<Room>D.02.2.01.06</Room>
+	<Room>R. PPG 1 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13006,14 +12979,6 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>71</Activity_Id>
-	<Room>D.03.3.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>72</Activity_Id>
 	<Room>D.03.1.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -13021,8 +12986,16 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>73</Activity_Id>
+	<Activity_Id>72</Activity_Id>
 	<Room>R. PPG 1 (Lt 2)</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>73</Activity_Id>
+	<Room>R. PPG 2 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13046,7 +13019,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>76</Activity_Id>
-	<Room>D.03.2.01.05</Room>
+	<Room>R. PPG 2 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13054,7 +13027,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>77</Activity_Id>
-	<Room>R. PPG 1 (Lt 2)</Room>
+	<Room>D.02.2.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13062,7 +13035,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>78</Activity_Id>
-	<Room>D.03.2.01.05</Room>
+	<Room>D.07.3.01.10</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13070,7 +13043,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>79</Activity_Id>
-	<Room>D.07.2.01.09</Room>
+	<Room>R. PPG 2 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13078,7 +13051,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>80</Activity_Id>
-	<Room>D.02.1.01.06</Room>
+	<Room>D.03.1.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13086,7 +13059,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>81</Activity_Id>
-	<Room>R. PPG 2 (Lt 2)</Room>
+	<Room>Lab Kom 2 (Lt2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13094,7 +13067,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>82</Activity_Id>
-	<Room>D.03.3.01.05</Room>
+	<Room>R. PPG 2 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13102,7 +13075,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>83</Activity_Id>
-	<Room>D.03.3.01.05</Room>
+	<Room>D.03.1.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13110,14 +13083,6 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>84</Activity_Id>
-	<Room>D.03.2.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>85</Activity_Id>
 	<Room>D.03.3.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -13125,8 +13090,16 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>85</Activity_Id>
+	<Room>D.03.2.01.05</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>86</Activity_Id>
-	<Room>D.07.2.01.09</Room>
+	<Room>D.02.3.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13134,7 +13107,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>87</Activity_Id>
-	<Room>R. PPG 2 (Lt 2)</Room>
+	<Room>D.02.3.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13150,7 +13123,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>89</Activity_Id>
-	<Room>Lab Kom 1 (Lt 3)</Room>
+	<Room>Lab Kom 2 (Lt2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13158,7 +13131,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>90</Activity_Id>
-	<Room>Lab Kom 1 (Lt 3)</Room>
+	<Room>Lab Kom 2 (Lt2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13198,14 +13171,6 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>95</Activity_Id>
-	<Room>R. PPG 1 (Lt 2)</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>96</Activity_Id>
 	<Room>R. Audiovisual (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -13213,15 +13178,15 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>97</Activity_Id>
-	<Room>D.03.2.01.05</Room>
+	<Activity_Id>96</Activity_Id>
+	<Room>D.07.2.01.09</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>98</Activity_Id>
+	<Activity_Id>97</Activity_Id>
 	<Room>D.03.3.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -13229,8 +13194,16 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>98</Activity_Id>
+	<Room>D.07.3.01.10</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>99</Activity_Id>
-	<Room>D.07.2.01.09</Room>
+	<Room>D.02.2.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13262,7 +13235,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>103</Activity_Id>
-	<Room>D.07.2.01.09</Room>
+	<Room>D.03.1.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13270,7 +13243,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>104</Activity_Id>
-	<Room>D.07.2.01.09</Room>
+	<Room>R. Audiovisual (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13278,7 +13251,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>105</Activity_Id>
-	<Room>R. PPG 1 (Lt 2)</Room>
+	<Room>D.03.3.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13286,7 +13259,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>106</Activity_Id>
-	<Room>D.02.3.01.06</Room>
+	<Room>R. Audiovisual (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13302,7 +13275,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>108</Activity_Id>
-	<Room>D.07.3.01.10</Room>
+	<Room>Lab Pend Mat (Lt 3)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13310,7 +13283,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>109</Activity_Id>
-	<Room>Lab Pend Mat (Lt 3)</Room>
+	<Room>R. Audiovisual (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13318,7 +13291,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>110</Activity_Id>
-	<Room>R. PPG 1 (Lt 2)</Room>
+	<Room>R. Audiovisual (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13326,7 +13299,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>111</Activity_Id>
-	<Room>Lab Pend Mat (Lt 3)</Room>
+	<Room>R. Audiovisual (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13334,7 +13307,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>112</Activity_Id>
-	<Room>Lab Pend Mat (Lt 3)</Room>
+	<Room>D.02.1.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13350,7 +13323,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>114</Activity_Id>
-	<Room>R. Audiovisual (Lt 2)</Room>
+	<Room>D.07.3.01.10</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13366,7 +13339,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>116</Activity_Id>
-	<Room>D.02.3.01.05</Room>
+	<Room>D.07.2.01.09</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13374,7 +13347,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>117</Activity_Id>
-	<Room>D.07.3.01.10</Room>
+	<Room>D.02.2.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13390,7 +13363,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>119</Activity_Id>
-	<Room>D.02.2.01.06</Room>
+	<Room>Lab Pend Mat (Lt 3)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13398,7 +13371,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>120</Activity_Id>
-	<Room>D.03.1.01.06</Room>
+	<Room>D.02.1.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13414,7 +13387,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>122</Activity_Id>
-	<Room>R. PPG 2 (Lt 2)</Room>
+	<Room>Lab Pend Mat (Lt 3)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13422,46 +13395,6 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>123</Activity_Id>
-	<Room>Lab Pend Mat (Lt 3)</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>124</Activity_Id>
-	<Room>R. M2 (Lt 1)</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>125</Activity_Id>
-	<Room>D.07.3.01.10</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>126</Activity_Id>
-	<Room>R. Audiovisual (Lt 2)</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>127</Activity_Id>
-	<Room>Lab Pend Mat (Lt 3)</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>128</Activity_Id>
 	<Room>R. PPG 1 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -13469,8 +13402,48 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>124</Activity_Id>
+	<Room>R. Audiovisual (Lt 2)</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>125</Activity_Id>
+	<Room>D.02.3.01.05</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>126</Activity_Id>
+	<Room>Lab Pend Mat (Lt 3)</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>127</Activity_Id>
+	<Room>R. Audiovisual (Lt 2)</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>128</Activity_Id>
+	<Room>D.02.1.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>129</Activity_Id>
-	<Room>D.03.1.01.06</Room>
+	<Room>D.02.3.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13478,7 +13451,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>130</Activity_Id>
-	<Room>R. PPG 2 (Lt 2)</Room>
+	<Room>D.02.3.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13510,7 +13483,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>134</Activity_Id>
-	<Room>R. Audiovisual (Lt 2)</Room>
+	<Room>D.03.3.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13518,7 +13491,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>135</Activity_Id>
-	<Room>D.03.2.01.05</Room>
+	<Room>D.07.3.01.10</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13526,7 +13499,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>136</Activity_Id>
-	<Room>R. PPG 1 (Lt 2)</Room>
+	<Room>R. PPG 2 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13534,7 +13507,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>137</Activity_Id>
-	<Room>R. Audiovisual (Lt 2)</Room>
+	<Room>D.07.3.01.10</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13550,7 +13523,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>139</Activity_Id>
-	<Room>D.02.1.01.06</Room>
+	<Room>R. PPG 1 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13558,7 +13531,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>140</Activity_Id>
-	<Room>R. PPG 2 (Lt 2)</Room>
+	<Room>D.03.2.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13566,7 +13539,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>141</Activity_Id>
-	<Room>R. PPG 2 (Lt 2)</Room>
+	<Room>D.03.2.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13574,7 +13547,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>142</Activity_Id>
-	<Room>D.03.3.01.05</Room>
+	<Room>Lab Pend Mat (Lt 3)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13590,7 +13563,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>144</Activity_Id>
-	<Room>D.03.1.01.06</Room>
+	<Room>D.07.2.01.09</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13598,7 +13571,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>145</Activity_Id>
-	<Room>R. PPG 2 (Lt 2)</Room>
+	<Room>R. PPG 1 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13606,7 +13579,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>146</Activity_Id>
-	<Room>R. M2 (Lt 1)</Room>
+	<Room>D.02.2.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13630,30 +13603,6 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>149</Activity_Id>
-	<Room>R. PPG 2 (Lt 2)</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>150</Activity_Id>
-	<Room>D.02.1.01.06</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>151</Activity_Id>
-	<Room>D.02.3.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>152</Activity_Id>
 	<Room>D.02.2.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -13661,23 +13610,15 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>153</Activity_Id>
-	<Room>Lab Pend Mat (Lt 3)</Room>
+	<Activity_Id>150</Activity_Id>
+	<Room>R. M2 (Lt 1)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>154</Activity_Id>
-	<Room>R. PPG 1 (Lt 2)</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>155</Activity_Id>
+	<Activity_Id>151</Activity_Id>
 	<Room>D.07.2.01.09</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -13685,8 +13626,40 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>156</Activity_Id>
+	<Activity_Id>152</Activity_Id>
 	<Room>D.07.3.01.10</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>153</Activity_Id>
+	<Room>R. Audiovisual (Lt 2)</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>154</Activity_Id>
+	<Room>R. Audiovisual (Lt 2)</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>155</Activity_Id>
+	<Room>D.02.3.01.05</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>156</Activity_Id>
+	<Room>Lab Kom 2 (Lt2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13694,7 +13667,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>157</Activity_Id>
-	<Room>D.07.3.01.10</Room>
+	<Room>D.03.2.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13702,7 +13675,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>158</Activity_Id>
-	<Room>D.07.3.01.10</Room>
+	<Room>D.02.3.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13710,7 +13683,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>159</Activity_Id>
-	<Room>Lab Pend Mat (Lt 3)</Room>
+	<Room>D.07.3.01.10</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13718,7 +13691,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>160</Activity_Id>
-	<Room>Lab Pend Mat (Lt 3)</Room>
+	<Room>D.02.2.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13750,7 +13723,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>164</Activity_Id>
-	<Room>D.07.3.01.10</Room>
+	<Room>D.07.2.01.09</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13766,7 +13739,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>166</Activity_Id>
-	<Room>R. PPG 2 (Lt 2)</Room>
+	<Room>R. PPG 1 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13782,7 +13755,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>168</Activity_Id>
-	<Room>R. Audiovisual (Lt 2)</Room>
+	<Room>R. PPG 1 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13790,30 +13763,6 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>169</Activity_Id>
-	<Room>D.07.3.01.10</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>170</Activity_Id>
-	<Room>D.07.3.01.10</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>171</Activity_Id>
-	<Room>D.02.2.01.06</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>172</Activity_Id>
 	<Room>R. M2 (Lt 1)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -13821,7 +13770,15 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>173</Activity_Id>
+	<Activity_Id>170</Activity_Id>
+	<Room>D.02.1.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>171</Activity_Id>
 	<Room>R. PPG 2 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -13829,7 +13786,15 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>174</Activity_Id>
+	<Activity_Id>172</Activity_Id>
+	<Room>D.02.3.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>173</Activity_Id>
 	<Room>R. Audiovisual (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -13837,8 +13802,16 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>174</Activity_Id>
+	<Room>D.02.2.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>175</Activity_Id>
-	<Room>D.02.1.01.06</Room>
+	<Room>D.03.1.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13846,7 +13819,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>176</Activity_Id>
-	<Room>D.02.1.01.06</Room>
+	<Room>Lab Pend Mat (Lt 3)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13870,22 +13843,6 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>179</Activity_Id>
-	<Room>Lab Pend Mat (Lt 3)</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>180</Activity_Id>
-	<Room>D.02.1.01.06</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>181</Activity_Id>
 	<Room>R. PPG 1 (Lt 2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -13893,63 +13850,7 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>182</Activity_Id>
-	<Room>D.07.2.01.09</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>183</Activity_Id>
-	<Room>Lab Kom 2 (Lt2)</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>184</Activity_Id>
-	<Room>Lab Kom 1 (Lt 3)</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>186</Activity_Id>
-	<Room>D.02.2.01.06</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>187</Activity_Id>
-	<Room>D.07.3.01.10</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>188</Activity_Id>
-	<Room>Lab Kom 2 (Lt2)</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>189</Activity_Id>
-	<Room>D.02.1.01.06</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>190</Activity_Id>
+	<Activity_Id>180</Activity_Id>
 	<Room>D.03.1.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -13957,8 +13858,80 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>181</Activity_Id>
+	<Room>D.03.1.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>182</Activity_Id>
+	<Room>D.03.1.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>183</Activity_Id>
+	<Room>D.03.1.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>184</Activity_Id>
+	<Room>D.02.3.01.05</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>186</Activity_Id>
+	<Room>Lab Kom 1 (Lt 3)</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>187</Activity_Id>
+	<Room>D.03.2.01.05</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>188</Activity_Id>
+	<Room>D.02.1.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>189</Activity_Id>
+	<Room>D.03.1.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>190</Activity_Id>
+	<Room>D.02.3.01.05</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>191</Activity_Id>
-	<Room>Lab Kom 2 (Lt2)</Room>
+	<Room>Lab Kom 1 (Lt 3)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13974,7 +13947,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>193</Activity_Id>
-	<Room>D.03.3.01.05</Room>
+	<Room>D.02.3.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13982,7 +13955,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>194</Activity_Id>
-	<Room>Lab Kom 2 (Lt2)</Room>
+	<Room>D.02.3.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13990,7 +13963,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>195</Activity_Id>
-	<Room>Lab Kom 1 (Lt 3)</Room>
+	<Room>Lab Kom 2 (Lt2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -13998,7 +13971,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>196</Activity_Id>
-	<Room>D.02.3.01.05</Room>
+	<Room>Lab Kom 1 (Lt 3)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -14014,7 +13987,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>198</Activity_Id>
-	<Room>D.03.2.01.05</Room>
+	<Room>Lab Kom 2 (Lt2)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -14030,7 +14003,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>200</Activity_Id>
-	<Room>Lab Kom 1 (Lt 3)</Room>
+	<Room>Lab Kom 3 (IDB)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -14045,24 +14018,8 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>216</Activity_Id>
-	<Room>D.02.3.01.06</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>202</Activity_Id>
-	<Room>D.02.3.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>203</Activity_Id>
-	<Room>Lab Kom 1 (Lt 3)</Room>
+	<Room>D.03.3.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -14070,7 +14027,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>204</Activity_Id>
-	<Room>D.03.3.01.05</Room>
+	<Room>Lab Kom 1 (Lt 3)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -14078,7 +14035,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>205</Activity_Id>
-	<Room>D.03.3.01.05</Room>
+	<Room>D.02.2.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -14086,7 +14043,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>206</Activity_Id>
-	<Room>D.03.3.01.05</Room>
+	<Room>D.02.3.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -14102,7 +14059,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>208</Activity_Id>
-	<Room>D.03.2.01.05</Room>
+	<Room>D.07.3.01.10</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -14110,7 +14067,7 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>209</Activity_Id>
-	<Room>Lab Kom 2 (Lt2)</Room>
+	<Room>D.02.3.01.06</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
@@ -14118,70 +14075,6 @@
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
 	<Activity_Id>210</Activity_Id>
-	<Room>D.02.3.01.06</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>211</Activity_Id>
-	<Room>D.02.3.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>212</Activity_Id>
-	<Room>D.03.2.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>226</Activity_Id>
-	<Room>D.07.2.01.09</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>227</Activity_Id>
-	<Room>D.02.3.01.06</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>228</Activity_Id>
-	<Room>D.02.3.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>239</Activity_Id>
-	<Room>Lab Kom 2 (Lt2)</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>240</Activity_Id>
-	<Room>D.02.3.01.05</Room>
-	<Permanently_Locked>false</Permanently_Locked>
-	<Active>true</Active>
-	<Comments></Comments>
-</ConstraintActivityPreferredRoom>
-<ConstraintActivityPreferredRoom>
-	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>241</Activity_Id>
 	<Room>D.03.3.01.05</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
@@ -14189,8 +14082,72 @@
 </ConstraintActivityPreferredRoom>
 <ConstraintActivityPreferredRoom>
 	<Weight_Percentage>100</Weight_Percentage>
-	<Activity_Id>242</Activity_Id>
+	<Activity_Id>211</Activity_Id>
+	<Room>D.03.2.01.05</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>212</Activity_Id>
+	<Room>D.02.2.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>226</Activity_Id>
+	<Room>D.02.3.01.05</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>227</Activity_Id>
 	<Room>D.02.1.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>228</Activity_Id>
+	<Room>D.07.2.01.09</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>240</Activity_Id>
+	<Room>Lab Kom 1 (Lt 3)</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>241</Activity_Id>
+	<Room>D.02.1.01.06</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>242</Activity_Id>
+	<Room>Lab Kom 2 (Lt2)</Room>
+	<Permanently_Locked>false</Permanently_Locked>
+	<Active>true</Active>
+	<Comments></Comments>
+</ConstraintActivityPreferredRoom>
+<ConstraintActivityPreferredRoom>
+	<Weight_Percentage>100</Weight_Percentage>
+	<Activity_Id>243</Activity_Id>
+	<Room>Lab Kom 1 (Lt 3)</Room>
 	<Permanently_Locked>false</Permanently_Locked>
 	<Active>true</Active>
 	<Comments></Comments>
