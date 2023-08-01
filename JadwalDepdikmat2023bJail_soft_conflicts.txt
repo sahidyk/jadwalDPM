@@ -1,0 +1,10 @@
+﻿Soft conflicts of JadwalDepdikmat2023bJail.fet
+Generated with FET 6.9.2 on 8/1/23 9:21 AM
+
+Number of broken soft constraints: 0
+Total soft conflicts: 0
+
+Soft conflicts list (in decreasing order):
+
+
+End of file.
